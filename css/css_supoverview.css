@@ -1,0 +1,285 @@
+
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #cccaca;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.89);
+  border-top: 1px solid black;
+}
+
+.sidenav a {
+  padding: 20px 20px 20px 16px;
+  text-decoration: none;
+  font-size: 10px;
+  color: #746c6c;
+  display: block;
+ 
+ 
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color: #465a9cc7;
+  
+}
+
+.sidenav a:active {
+  color: #f1f1f1;
+  background-color: #465a9cc7;
+}
+
+.main {
+  
+  margin-top: 30px;
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  
+  overflow: hidden;
+}
+
+
+
+/*----------------------------------------------------------------------------HEADER*/
+.header {
+    position: fixed;
+    top:0;
+    padding: 50px 900px;
+    background: #050A30;
+      box-shadow: 7px 0 10px 0 rgba(0, 0, 0, 0.89);
+}
+
+
+.headtxt{
+    position: absolute;
+    font-size: 20px;
+    top: 8px;
+    left: 200px;
+    color: white;
+    
+}
+
+
+
+#icons{
+   font-size:24px
+ }
+
+
+
+
+
+
+
+
+ table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  font-size: 15px;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(odd){background-color: #b6b7bd}
+tr:hover:nth-child(odd){background-color: #3daf63;
+   transition: background-color 1s;}
+tr:nth-child(even){background-color: #c2c3ca}
+tr:hover:nth-child(even){background-color: #3daf63;
+   transition: background-color 1s;}
+
+th {
+  
+  background-color: gray;
+  color: white;
+  position: st;
+}
+
+.update{
+  font-color: red;
+}
+
+
+
+ 
+
+.accordion {
+  background-color: #303556;
+  color: white;
+  cursor: pointer;
+  padding: 50px;
+  width: 90%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+  transition: 0.4s;
+  transition: width 1s;
+  box-shadow: 7px 0 10px 0 rgba(0, 0, 0, 0.89);
+  
+}
+
+.active, .accordion:hover {
+  background-color: #186b18; 
+  width: 100%;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+
+
+
+@media only screen and (min-device-width:225px) and (max-device-width: 980px ){
+    .sidenav {
+    background-color:  #e0dede;
+  overflow: auto;
+  white-space: nowrap;
+  height: 30%;
+  margin-top: 176%;
+  width:100%;
+  
+}
+
+.sidenav a {
+    
+bottom: 1px;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+}
+ 
+
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color: #465a9cc7;
+  padding: 2px ;
+}
+
+.sidenav a:active {
+  color: #f1f1f1;
+  background-color: #465a9cc7;
+}
+
+.main {
+  margin-top: 50px;
+  margin-left: -0px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-bottom: 500px;
+}
+
+
+.header {
+    position: fixed;
+    top:0;
+    padding: 50px 900px;
+    background: #050A30;
+      box-shadow: 7px 0 10px 0 rgba(0, 0, 0, 0.89);
+}
+
+
+.headtxt{
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: white;
+    
+}
+
+
+
+#icons{
+   font-size:24px
+ }
+
+
+
+
+
+
+
+
+ table {
+  border-collapse: collapse;
+  width: 30%;
+}
+
+th, td {
+  font-size: 8.8px;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd){background-color: #b6b7bd}
+tr:hover:nth-child(odd){background-color: #3daf63;
+   transition: background-color 1s;}
+tr:nth-child(even){background-color: #c2c3ca}
+tr:hover:nth-child(even){background-color: #3daf63;
+   transition: background-color 1s;}
+
+th {
+  
+  background-color: gray;
+  color: white;
+  position: st;
+}
+
+.update{
+  font-color: red;
+}
+
+
+.accordion {
+  background-color: #303556;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 90%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 11px;
+  transition: 0.4s;
+  z-index: -1;
+  transition: width 1s;
+  
+}
+
+.active, .accordion:hover {
+  z-index: -1;
+  background-color: #186b18; 
+  width: 100%;
+}
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  margin-left: -10px;
+  z-index: -1;
+}
+
+
+}

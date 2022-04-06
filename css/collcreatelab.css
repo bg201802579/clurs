@@ -1,0 +1,179 @@
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.amin{
+  padding: 12px 15px;
+  border:none;
+  background-color: green;
+  color: white;
+
+}
+
+
+.amin:hover{
+  padding: 12px 30px;
+  border:none;
+  background-color: gray;
+  color: white;
+  transition: padding 1s;
+  
+}
+
+
+.invalid-feedback{
+  font-size:10px;
+  color : yellow;
+
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #cccaca;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.89);
+  border-top: 1px solid black;
+}
+
+.sidenav a {
+  padding: 20px 20px 20px 16px;
+  text-decoration: none;
+  font-size: 10px;
+  color: #746c6c;
+  display: block;
+ 
+ 
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color: #465a9cc7;
+  
+}
+
+.sidenav a:active {
+  color: #f1f1f1;
+  background-color: #465a9cc7;
+}
+
+.main {background-image: url("./1wmsu.png");
+  
+  background-color: #333026;
+ height: 652px; 
+ background-position: center; 
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-top: 50px;
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+
+
+/*----------------------------------------------------------------------------HEADER*/
+.header {
+    position: fixed;
+    top:0;
+    padding: 50px 900px;
+    background: #050A30;
+      box-shadow: 7px 0 10px 0 rgba(0, 0, 0, 0.89);
+}
+
+
+.headtxt{
+    position: absolute;
+    font-size: 20px;
+    top: 8px;
+    left: 200px;
+    color: white;
+    
+}
+
+.wrapper{   position:fixed;
+            padding: 20px 10%;
+            background-color: #050A30;
+            border: 1px solid white;
+            height: 450px;
+            width: 400px;
+            color:white;
+            font-size: 22px;
+            opacity: 0.9;
+            margin-left: 20px;
+            box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.89);
+           
+           
+        }
+
+
+@media only screen and (min-device-width:225px) and (max-device-width: 980px ){
+    .sidenav {
+    background-color:  #e0dede;
+  overflow: auto;
+  white-space: nowrap;
+  height: 30%;
+  margin-top: 176%;
+  width:100%;
+  
+}
+
+.sidenav a {
+    
+bottom: 1px;
+  display: inline-block;
+  color: #15188a;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+}
+ 
+
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color: #465a9cc7;
+  padding: 2px ;
+}
+
+.sidenav a:active {
+  color: #f1f1f1;
+  background-color: #465a9cc7;
+}
+
+.main {margin-top: 50px;
+  margin-left: -0px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+
+.header {
+    position: fixed;
+    top:0;
+    padding: 50px 900px;
+    background: #050A30;
+      box-shadow: 7px 0 10px 0 rgba(0, 0, 0, 0.89);
+}
+
+
+.headtxt{
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: white;
+    
+}
+
+
+
+
+
+}

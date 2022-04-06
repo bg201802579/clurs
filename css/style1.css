@@ -1,0 +1,299 @@
+
+
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+html, body {
+  height: 100%;
+}
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 150%;
+  line-height: 1.4;
+}
+body {
+  margin: 0;
+}
+
+.viewport-header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  position: absolute;
+  right: 9%;
+  font-family: 'Syncopate', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3vw;
+  line-height: 1.2;
+  font-size: 3vw;
+  
+  
+  
+}
+
+main {
+  display: none;
+  width: 80vw;
+  left: 10%;
+  height: 40vh;
+  overflow: auto;
+  background: rgba(black, 0.66);
+  color: white;
+  position: relative;
+  padding: 1rem;
+}
+
+
+/*header content*/
+.content {
+  position: fixed;
+  top: 0;
+  background-color: rgba(14, 3, 3, 0.5);
+  width: 100%;
+  padding: 5px;
+  animation-name: content;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes content {
+  from {background-color: rgba(14, 3, 3, 0.637);}
+  to {background-color: rgba(13, 18, 114, 0.712);}
+}
+
+
+
+
+
+
+
+
+
+  /*header buttonsg*/
+
+  .topnav {
+      overflow: hidden;
+     
+    }
+    
+    .topnav a {
+      float: right;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 20px 25px;
+      text-decoration: none;
+      font-size: 20px;
+      font-family: 'Permanent Marker', cursive;
+      
+    }
+    
+    .topnav a:hover {
+      background-color: rgba(247, 244, 244, 0.5);
+      color: #043e60;
+    }
+    
+    .topnav a.active {
+      background-color: rgba(247, 244, 244, 0.5);
+      color: white;
+    }
+    
+    .topnav .icon {
+      display: none;
+    }
+    
+    .logo{
+        position: absolute;
+        
+        width: 120px;
+        height: 120px;
+        top: 18px;
+        left: 88%;
+        z-index: 100;
+        border-radius:solid 50% white;
+        
+    }
+    #imgPos{
+     
+      z-index: 100;
+    }
+
+
+   .fill{
+       padding: 25% 17%;
+       position: fixed;
+       background-color:  #122462;
+       z-index: 1;
+       top: 0;
+       left: 0;
+       border-right: 3px solid white;
+   }
+ 
+
+   .formsPos{
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-size: 22px;
+       font-weight: 300;
+       color: white;
+     position: absolute;
+     top: 3%;
+     left: 3%;
+     margin-left: 20px;
+   }
+   input{
+       padding: 13px 40px;
+       background-color: #b1f5fc;
+       border: solid 1px white;
+       margin-top: 4px;
+       margin-left: 56px;
+   }
+   .regBut{
+     margin-top: 30px;
+     padding: 11px 70px;
+     margin-left: 114px;
+     background-color: aqua;
+     border: none;
+   }
+
+   .regBut:hover{
+     background-color: #9facdbc9;
+     color: white;
+     border: none;
+   }
+
+   .txtReg{
+     margin-top: -1px;
+     font-size: 40px;
+     font-weight: 400;
+   }
+
+
+
+
+
+
+@media only screen and (min-device-width:225px) and (max-device-width: 980px ){
+  h1 {
+      display: none;
+      }
+    }
+
+  .content {
+      position: fixed;
+      top: 0;
+      background: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      padding: 5px;
+    }
+  
+      /*header buttonsg*/
+  
+      .topnav {
+          overflow: hidden;
+         
+        }
+        
+        .topnav a {
+          float: right;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 20px 25px;
+          text-decoration: none;
+          font-size: 17px;
+          font-family: 'Permanent Marker', cursive;
+          
+        }
+        
+        .topnav a:hover {
+          background-color: rgba(247, 244, 244, 0.5);
+          color: #043e60;
+        }
+        
+       
+        
+        .topnav .icon {
+          display: none;
+        }
+        
+        .logo{
+            position: absolute;
+            float: left;
+            width: 60px;
+            height: 60px;
+            top: 9px;
+            
+        }
+        #imgPos{
+          display: flex;
+          justify-content: left;
+          margin-left: 25px;
+        }
+
+        
+   .fill{
+    padding: 25% 17%;
+       position: fixed;
+       background-color:  #122462;
+       z-index: 1;
+       top: 0;
+       left: 0;
+       border-right: 3px solid white;
+}
+
+
+.formsPos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: white;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  margin-left: 20px;
+}
+input{
+    padding: 13px 40px;
+    background-color: #b1f5fc;
+    border: solid 1px white;
+    margin-top: 4px;
+    margin-left: 56px;
+}
+.regBut{
+  margin-top: 30px;
+  padding: 11px 70px;
+  margin-left: 114px;
+  background-color: aqua;
+  border: none;
+}
+
+.regBut:hover{
+  background-color: #9facdbc9;
+  color: white;
+  border: none;
+}
+
+.txtReg{
+  margin-top: -1px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+      }
+
+

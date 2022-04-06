@@ -1,0 +1,70 @@
+body{
+    background-image: url("./media/1wmsu.png");
+    background-color: #333026;
+    height: 102%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 120px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+ }   
+ .fill{
+background-color: #DDD5F4;
+padding: 20px 10px;
+margin-right: 50%;
+border: 2px solid #444791;
+color: #333026;
+
+z-index: 1;
+}
+
+
+
+.no{
+ padding: 13px 20px;
+ background-color: #050a30;
+ color: white;
+}
+.no:hover{
+padding: 13px 20px;
+ background-color: #454b6c;
+ color: white;
+}
+
+
+.yes{
+
+padding: 20px 20px;
+ background-color: green;
+ color: white;
+ border: none;
+}
+
+.yes:hover{
+ padding: 20px 20px;
+ background-color: red;
+ color: white;
+}
+
+
+input{
+ padding: 10px 20px;
+}
+
+
+i{
+ margin-left: 30px;
+}
+
+label{
+font-size: 25px;
+}
+
+.invalid-feedback{
+ font-size:13px;
+ color : red;
+
+}
+
